@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.farhan.advotics"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Advotics\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Advotics\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Advotics\app\src\main\AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->C:\Advotics\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Advotics\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Advotics\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Advotics\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Advotics\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Advotics\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Advotics\app\src\main\AndroidManifest.xml:12:9-15:20
+22            android:name="com.farhan.advotics.View.login.LoginActivity"
+22-->C:\Advotics\app\src\main\AndroidManifest.xml:13:13-53
+23            android:label="Login" >
+23-->C:\Advotics\app\src\main\AndroidManifest.xml:14:13-34
+24        </activity>
+25        <activity
+25-->C:\Advotics\app\src\main\AndroidManifest.xml:16:9-24:20
+26            android:name="com.farhan.advotics.View.MainActivity"
+26-->C:\Advotics\app\src\main\AndroidManifest.xml:17:13-46
+27            android:label="@string/app_name" >
+27-->C:\Advotics\app\src\main\AndroidManifest.xml:18:13-45
+28            <intent-filter>
+28-->C:\Advotics\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Advotics\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Advotics\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Advotics\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Advotics\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+37            android:authorities="com.farhan.advotics.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\farha\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>
