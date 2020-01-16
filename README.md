@@ -6,6 +6,10 @@ This is an app created to fulfill the task given by Advotics for their process o
 
   - This apps using Java as the main development language
   - This apps implements new architectural design for android called MVVM
+  - Generated APK can be found on here :
+```sh
+$ Advotics-2/app/build/outputs/apk/debug/
+```
   - Any question related to this apps can be sent to my contacts, link below!
 ______________________
 Achmad Farhan Mustaqim
